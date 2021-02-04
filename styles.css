@@ -106,6 +106,7 @@ ul{
     margin: auto;
     display: grid;
     grid-template-columns: 16% 16% 16% 19% 16% 16%;
+    padding: 0;
 }
 nav ul li{
     list-style-type: none;
