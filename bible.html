@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Read to live</title>
+        <meta name="viweport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+        <style>
+            body{
+                padding: 0;
+                margin: 0;
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+                }
+                header{
+                    margin: 0;
+                    padding: 1px;
+                    text-align: center;
+                    
+                }
+            .book{
+                padding: 0;
+                width: 80%;
+                margin: auto;
+                margin-top: 10px;
+                min-height: 450px;
+                display: flex;
+                justify-content: center;
+            }
+            .common_bible{
+                margin: 20px;
+                min-height: 300px;
+                width: 100%;
+                text-align: center;
+                border-radius: 10px;
+                transition: 0.3s;
+            }
+            .common_bible:hover{
+                transform: scale(1.1);
+            }
+
+            .book_one{
+                background: linear-gradient(45deg, rgba(0,0,0,0.7), rgba(0,0,0,0.7)),url(bible_one.png) no-repeat center;
+                background-size: cover
+            }
+            .book_two{
+                background: linear-gradient(45deg, rgba(0,0,0,0.7), rgba(0,0,0,0.7)),url(bible_two.jpg) no-repeat center;
+                background-size: cover;
+            }
+            .book_three{
+                background: linear-gradient(45deg, rgba(0,0,0,0.7), rgba(0,0,0,0.7)),url(bible_three.png) no-repeat center;
+                background-size: cover;
+            }
+            .book_four{
+                background: linear-gradient(45deg, rgba(0,0,0,0.7), rgba(0,0,0,0.7)),url(bible_tamil.png) no-repeat center;
+                background-size: cover;
+            }
+            .book_five{
+                background: linear-gradient(45deg, rgba(0,0,0,0.7), rgba(0,0,0,0.7)),url(bible_french.jpg) no-repeat center;
+                background-size: cover;
+            }
+            .book_six{
+                background: linear-gradient(45deg, rgba(0,0,0,0.7), rgba(0,0,0,0.7)),url(bible_hindi.jpg) no-repeat center;
+                background-size: cover;
+            }
+            a{
+                text-decoration: none;
+                color: white;
+                min-height: 100%;
+                display: block;
+                width: 100%;
+                line-height: 50vh;
+                font-size: 30px;
+                font-family: monospace;
+            }
+            footer{
+                margin: 0;
+                padding: 10px;
+                min-height: 10vh;
+                margin-top: 20px;
+                text-align: center;
+            }
+            footer h1{
+                margin: 0;
+                padding: 0;
+                margin-top: 10px;
+                text-shadow: 0 0 10px lime;
+            }
+            footer h3{
+                margin: 0;
+                padding: 0;
+            }
+            @media (min-width:769px) and (max-width: 1200px){
+                .book{
+                    flex-wrap: wrap;
+                }
+            }
+        </style>
+    </head>
+    <body>
+        <header>
+            <h1><span style="color: blue;">BIBLE </span>is the <span style="color: red;">Love Letter</span> From <span style="text-shadow: 0 0 10px lime;">God</span></h1>
+        </header>
+        <div class="book">
+            <div class="book_one common_bible">
+                <a href="https://www.wordproject.org/bibles/tel/index_en.htm">Telugu bible</a>
+            </div>
+            <div class="book_two common_bible">
+                <a href="https://www.wordproject.org/bibles/kj/index.htm">English bible</a>
+            </div>
+            <div class="book_three common_bible">
+                <a href="https://www.wordproject.org/bibles/kn/index.htm">Kannada bible</a>
+            </div>
+        </div>
+        <div class="book">
+            <div class="book_four common_bible">
+                <a href="https://www.wordproject.org/bibles/tm/index.htm">Tamil bible</a>
+            </div>
+            <div class="book_five common_bible">
+                <a href="https://www.wordproject.org/bibles/fr/index.htm">French bible</a>
+            </div>
+            <div class="book_six common_bible">
+                <a href="https://www.wordproject.org/bibles/in/index.htm">Hindi bible</a>
+            </div>
+        </div>
+        <footer>
+            <h1>Jesus  Loves You</h1>
+            <h3> - This Site Maintained By <span style="color: blue;">Upendra</span></h3>
+        </footer>
+
+        <script type="text/javascript">
+            document.addEventListener("contextmenu",function(upendra){
+                upendra.preventDefault();
+            });
+            </script>
+    </body>
+</html>
