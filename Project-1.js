@@ -19,7 +19,7 @@ function calculateValue() {
         ResultElement.style.color = "magenta";
         ResultElement.style.fontFamily = "monospace";
     }
-    else if (Value >= BPPValue) {
+    else if (Value > BPPValue) {
         ResultElement.textContent = messageOne;
         ResultElement.style.color = "red";
         console.log(ResultElement);
