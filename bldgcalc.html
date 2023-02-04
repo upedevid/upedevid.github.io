@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Calculate 18%</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="Project-1.css" media="screen" type="text/css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+    <h1 class="h1"><a href="https://upedevid.github.io/">18% Building Calculation</a></h1>
+    <div class="value-sec">
+        <input id="buildingValue" type="text" required autofocus placeholder="Enter New Building Value" />
+    </div>
+    <div class="value-sec">
+        <input id="bppValue" type="text" required placeholder="Enter New BPP Value" />
+    </div>
+    <button class="button" onclick="calculateValue()">Calculate</button>
+    <p id="Result" class="result"></p>
+    <div class="value-value">
+        <table>
+            <tr>
+                <td class="td_allign">18% of the building value: </td>
+                <td><p id="eightBldg" class="input"> </p></td>
+            </tr>
+            <tr>
+                <td class="td_allign">New BPP value: </td>
+                <td><p id="givenBpp" class="input"> </p></td>
+            </tr>
+        </table>
+    </div>
+    <script src="Project-1.js"></script>
+</body>
+
+</html>
