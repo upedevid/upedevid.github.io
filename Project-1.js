@@ -13,7 +13,7 @@ let disBppElement = document.getElementById("givenBpp");
 function calculateValue() {
     let BuildingValue = parseInt(buildingValueElement.value);
     let BPPValue = parseInt(bppValueElement.value);
-    let Value = round(BuildingValue * 0.18);
+    let Value = (BuildingValue * 0.18);
     if ((BuildingValue === "" || isNaN(BuildingValue)) && (BPPValue === "" || isNaN(BPPValue))) {
         ResultElement.textContent = errorMess;
         ResultElement.style.color = "red";
