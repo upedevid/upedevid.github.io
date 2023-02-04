@@ -25,6 +25,15 @@ h1 a:hover{
     padding: 5px;
     margin: 10px;
 }
+input[type="text"]{
+    width: 200px;
+    height: 35px;
+    border-radius: 10px;
+    border-width: 0px;
+    box-shadow: 0 0 10px Blue;
+    padding: 5px;
+    margin: 10px;
+}
 .button {
     margin: 10px;
     border-radius: 10px;
